@@ -1,6 +1,6 @@
 CAPI=2:
 
-name: iobundle:py2hwsw:iob_cache_axi:0.71
+name: iobundle:py2hwsw:iob_cache_axi:0.71.0
 #license: MIT
 description : Default description
 
