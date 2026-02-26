@@ -1,13 +1,13 @@
-% SPDX-FileCopyrightText: 2025 IObundle, Lda
+% SPDX-FileCopyrightText: 2026 IObundle, Lda
 %
 % SPDX-License-Identifier: MIT
 %
-% Py2HWSW Version 0.81 has generated this code (https://github.com/IObundle/py2hwsw).
+% Py2HWSW Version 0.81.0 has generated this code (https://github.com/IObundle/py2hwsw).
 
-axi\_araddr\_o & output & AXI\_ADDR\_W & AXI address read channel byte address. \\ \hline
+axi\_araddr\_o & output & AXI\_ADDR\_W & AXI address read channel byte address. \\* \nobreakhline
 \rowcolor{iob-blue}
-axi\_arvalid\_o & output & 1 & AXI address read channel valid. \\ \hline
-axi\_arready\_i & input & 1 & AXI address read channel ready. \\ \hline
+axi\_arvalid\_o & output & 1 & AXI address read channel valid. \\* \nobreakhline
+axi\_arready\_i & input & 1 & AXI address read channel ready. \\* \nobreakhline
 \rowcolor{iob-blue}
 axi\_rdata\_i & input & AXI\_DATA\_W & AXI read channel data. \\ \hline
 axi\_rresp\_i & input & 2 & AXI read channel response. \\ \hline
@@ -55,4 +55,4 @@ axi\_awcache\_o & output & 4 & AXI address write channel memory type. \\ \hline
 axi\_awqos\_o & output & 4 & AXI address write channel quality of service. \\ \hline
 \rowcolor{iob-blue}
 axi\_wlast\_o & output & 1 & AXI Write channel last word flag. \\ \hline
-axi\_bid\_i & input & AXI\_ID\_W & AXI Write response channel ID. \\ \hline
+axi\_bid\_i & input & AXI\_ID\_W & AXI Write response channel ID. \\
